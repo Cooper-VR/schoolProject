@@ -16,6 +16,32 @@ body {
   font-family: Nunito;
 }
 
+.top-container {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+.header {
+  padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky+.content {
+  padding-top: 102px;
+}
+
 h1 {
   font-size: 250%
 }
@@ -120,30 +146,50 @@ img:last-of-type {
 }
 
 #slide6 {
-  background-image: url("https://picsum.photos/960/400");
+  background-image: url("/assets/uscongress.jpg");
   z-index: 2;
 }
 
 #slide7:before {
-  background-image: url("https://picsum.photos/980/600");
+  background-image: url("/assets/constitution.jpg");
   transform: translateZ(-1px) scale(2);
 }
 
 #slide8 {
-  background-image: url("https://picsum.photos/960/400");
+  background-image: url("/assets/depositphotos.jpg");
   z-index: 2;
 }
 
 #slide9:before {
-  background-image: url("https://picsum.photos/960/520");
+  background-image: url("/assets/ronald_reagan.jpg");
   transform: translateZ(-1px) scale(2);
 }
 
 #slide10 {
-  background-image: url("https://picsum.photos/960/400");
+  background-image: url("/assets/download.jpg");
   z-index: 2;
 }
 
 #slide4 {
   background: #222;
+}
+
+#navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: sticky;
+  top: 0;
+  left: 0;
+  align-items: center;
+  width: 100%;
+  z-index: 3;
+  background-color: white;
+}
+
+#navBar a {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-size: min(2vh, 2vw);
+  text-align: center;
 }
