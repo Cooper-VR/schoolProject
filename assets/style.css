@@ -130,7 +130,7 @@ img:last-of-type {
 }
 
 #title {
-  background-image: url("/assets/unsplash-fireworks-flag.jpg");
+  background-image: url("unsplash-fireworks-flag.jpg");
   z-index: 2;
 }
 
@@ -141,47 +141,47 @@ img:last-of-type {
 }
 
 #slide1:before {
-  background-image: url("/assets/we-want-you.jpg");
+  background-image: url("we-want-you.jpg");
   transform: translateZ(-1px) scale(2);
 }
 
 #slide2 {
-  background-image: url("/assets/Lady+Liberty-flag-fireworks.jpg");
+  background-image: url("Lady+Liberty-flag-fireworks.jpg");
   z-index: 2;
 }
 
 #slide3:before {
-  background-image: url("/assets/america-facts.jpg");
+  background-image: url("america-facts.jpg");
   transform: translateZ(-1px) scale(2);
 }
 
 #slide6 {
-  background-image: url("/assets/uscongress.jpg");
+  background-image: url("uscongress.jpg");
   z-index: 2;
 }
 
 #slide7:before {
-  background-image: url("/assets/constitution.jpg");
+  background-image: url("constitution.jpg");
   transform: translateZ(-1px) scale(2);
 }
 
 #slide8 {
-  background-image: url("/assets/depositphotos.jpg");
+  background-image: url("depositphotos.jpg");
   z-index: 2;
 }
 
 #slide9:before {
-  background-image: url("/assets/ronald_reagan.jpg");
+  background-image: url("ronald_reagan.jpg");
   transform: translateZ(-1px) scale(2);
 }
 
 #slide10 {
-  background-image: url("/assets/download.jpg");
+  background-image: url("download.jpg");
   z-index: 2;
 }
 
 #slide4 {
-  background-image: url("/assets/d8uigwg-2fb4bfdf-e315-42b1-be17-a07539149e2b.jpg");
+  background-image: url("d8uigwg-2fb4bfdf-e315-42b1-be17-a07539149e2b.jpg");
 }
 
 #navBar {
