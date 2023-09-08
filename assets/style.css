@@ -119,6 +119,31 @@ img:last-of-type {
   transform: translateZ(-1px) scale(2);
 }
 
+#slide6 {
+  background-image: url("https://picsum.photos/960/400");
+  z-index: 2;
+}
+
+#slide7:before {
+  background-image: url("https://picsum.photos/980/600");
+  transform: translateZ(-1px) scale(2);
+}
+
+#slide8 {
+  background-image: url("https://picsum.photos/960/400");
+  z-index: 2;
+}
+
+#slide9:before {
+  background-image: url("https://picsum.photos/960/520");
+  transform: translateZ(-1px) scale(2);
+}
+
+#slide10 {
+  background-image: url("https://picsum.photos/960/400");
+  z-index: 2;
+}
+
 #slide4 {
   background: #222;
 }
