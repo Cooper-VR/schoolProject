@@ -1,5 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);
 
+*{
+  scroll-behavior: smooth;
+  text-decoration: none;
+}
+
 html {
   height: 100%;
   overflow: hidden;
@@ -120,7 +125,7 @@ img:last-of-type {
 }
 
 #title {
-  background-image: url("https://picsum.photos/640/480");
+  background-image: url("/assets/unsplash-fireworks-flag.jpg");
   z-index: 2;
 }
 
@@ -131,17 +136,17 @@ img:last-of-type {
 }
 
 #slide1:before {
-  background-image: url("https://picsum.photos/960/520");
+  background-image: url("/assets/we-want-you.jpg");
   transform: translateZ(-1px) scale(2);
 }
 
 #slide2 {
-  background-image: url("https://picsum.photos/960/400");
+  background-image: url("/assets/Lady+Liberty-flag-fireworks.jpg");
   z-index: 2;
 }
 
 #slide3:before {
-  background-image: url("https://picsum.photos/980/600");
+  background-image: url("/assets/america-facts.jpg");
   transform: translateZ(-1px) scale(2);
 }
 
@@ -188,6 +193,7 @@ img:last-of-type {
 }
 
 #navBar a {
+  color: black;
   padding-top: 1%;
   padding-bottom: 1%;
   font-size: min(2vh, 2vw);
