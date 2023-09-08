@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);
+@import url(https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap);
 
 *{
   scroll-behavior: smooth;
@@ -95,16 +96,16 @@ img:last-of-type {
 }
 
 .title {
-  width: 50%;
-  padding: 5%;
+  width: 84%;
+  padding: 3%;
   border-radius: 5px;
   background: rgba(240, 230, 220, .7);
   box-shadow: 0 0 8px rgba(0, 0, 0, .7);
 }
 
 .slide:nth-child(2n) .title {
-  margin-left: 0;
-  margin-right: auto;
+  margin-left: auto;
+  margin-right: 0;
 }
 
 .slide:nth-child(2n+1) .title {
@@ -176,7 +177,7 @@ img:last-of-type {
 }
 
 #slide4 {
-  background: #222;
+  background-image: url("/assets/d8uigwg-2fb4bfdf-e315-42b1-be17-a07539149e2b.jpg");
 }
 
 #navBar {
@@ -193,6 +194,7 @@ img:last-of-type {
 }
 
 #navBar a {
+  font-family: 'Dancing Script', cursive;
   color: black;
   padding-top: 1%;
   padding-bottom: 1%;
