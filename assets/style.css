@@ -49,11 +49,15 @@ body {
 }
 
 h1 {
-  font-size: 250%
+  font-size: min(5vh, 5vw)
+}
+
+h2 {
+  font-size: min(3vh, 3vw)
 }
 
 p {
-  font-size: 140%;
+  font-size: min(1.6vh, 1.6vw);
   line-height: 150%;
   color: #333;
 }
