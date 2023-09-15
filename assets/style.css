@@ -179,9 +179,12 @@ img:last-of-type {
   background-image: url("download.jpg");
   z-index: 2;
 }
-
-#slide4 {
+#slide11:before {
   background-image: url("d8uigwg-2fb4bfdf-e315-42b1-be17-a07539149e2b.jpg");
+  transform: translateZ(-1px) scale(2);
+}
+#slide4 {
+  background-image: url("1467233684-fw-flag-sm2.gif");
 }
 
 #navBar {
