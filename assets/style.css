@@ -136,6 +136,7 @@ img:last-of-type {
 #title {
   background-image: url("unsplash-fireworks-flag.jpg");
   z-index: 2;
+  padding-top: 4vh;
 }
 
 #title h1 {
@@ -213,7 +214,7 @@ img:last-of-type {
     background-image: url("d8uigwg-2fb4bfdf-e315-42b1-be17-a07539149e2b.jpg");
     background-size: cover;
     -webkit-transform: translateZ(-1px) scale(2);
-    transform: translateZ(-5px) scale(2);
+    transform: translateZ(-1px) scale(2);
     max-height: min(270vh, 270vw);
     padding-bottom: 0vh;
   }
