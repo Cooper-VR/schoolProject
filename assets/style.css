@@ -186,8 +186,13 @@ img:last-of-type {
 #slide11:before {
   background-image: url("d8uigwg-2fb4bfdf-e315-42b1-be17-a07539149e2b.jpg");
   transform: translateZ(-1px) scale(2);
+  max-height: 160vw;
 }
 #slide4 {
+  background-image: url("1467233684-fw-flag-sm2.gif");
+}
+
+#slide12 {
   background-image: url("1467233684-fw-flag-sm2.gif");
 }
 
