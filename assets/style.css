@@ -185,9 +185,35 @@ img:last-of-type {
 }
 #slide11:before {
   background-image: url("d8uigwg-2fb4bfdf-e315-42b1-be17-a07539149e2b.jpg");
+  background-size: cover;
   transform: translateZ(-1px) scale(2);
-  max-height: 160vw;
+  max-height: min(230vh, 230vw);
+
 }
+
+@media(orientation: portrait){
+  #slide11:before {
+    background-image: url("d8uigwg-2fb4bfdf-e315-42b1-be17-a07539149e2b.jpg");
+    background-size: cover;
+    transform: translateZ(-1px) scale(2);
+    max-height: min(210vh, 210vw);
+    padding-bottom: 100vh;
+  }
+}
+@media(orientation: landscape){
+  #slide11:before {
+    background-image: url("d8uigwg-2fb4bfdf-e315-42b1-be17-a07539149e2b.jpg");
+    background-size: cover;
+    transform: translateZ(-1px) scale(2);
+    max-height: min(270vh, 270vw);
+    padding-bottom: 0vh;
+  }
+  #slide4{
+    padding-bottom: 70vh;
+  }
+}
+
+
 #slide4 {
   background-image: url("1467233684-fw-flag-sm2.gif");
 }
