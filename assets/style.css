@@ -97,7 +97,7 @@ img {
   width: 95%;
   padding: 3%;
   border-radius: 5px;
-  background: rgba(240, 230, 220, .7);
+  background: rgba(0, 0, 0, 0.7);
 
 }
 
@@ -123,7 +123,7 @@ img {
 .header {
   text-align: center;
   font-size: 175%;
-  color: #fff;
+  color: #383838;
   text-shadow: 0 2px 2px #000;
 }
 
